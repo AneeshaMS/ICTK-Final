@@ -12,7 +12,17 @@ const routes: Routes = [
     redirectTo: 'LandingPage',
     pathMatch: 'full'
   },
+  {
+    path:'adminpage',
+    loadChildren:() => import('./admin-dashboard/admin-dashboard.module').then(m => m.AdminDashboardModule)
+  },
+  {
+    path:'adminpage',
+    redirectTo:'adminpage',
+    pathMatch:'full'
+  }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes,{

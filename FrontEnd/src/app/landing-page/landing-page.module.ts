@@ -24,10 +24,7 @@ import { DcwFormComponent } from './ICTAK-Events/dcw-form/dcw-form.component';
 import { EventsCarouselComponent } from './ICTAK-Events/events-carousel/events-carousel.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
-
 import{ReactiveFormsModule } from '@angular/forms';
-
-
 import {MatExpansionModule} from '@angular/material/expansion';
 import { RpaFormComponent } from './ICTAK-Events/rpa-form/rpa-form.component';
 import { MlaiFormComponent } from './ICTAK-Events/mlai-form/mlai-form.component';

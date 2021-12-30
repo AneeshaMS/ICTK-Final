@@ -34,11 +34,18 @@
               "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
                "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
               "src/styles.css",
+              
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/responsive.css",
               "src/assets/css/style.css",
               "src/assets/css/font-awesome.min.css",
-              "src/assets/css/themify-icons.css"
+              "src/assets/css/themify-icons.css",
+
+              "src/assets/admin/css/nucleo-icons.css",
+             "src/assets/admin/css/nucleo-svg.css",
+             "src/assets/admin/css/material-dashboard.css"
+              
+             
             ],
             "scripts": [
               "src/assets/js/vendor/bootstrap.min.js",
@@ -50,7 +57,18 @@
               "src/assets/js/jquery.stellar.min.js",
               "src/assets/js/main.js",
               "src/assets/js/owl.carousel.min.js",
-              "src/assets/js/waypoints.min.js"
+              "src/assets/js/waypoints.min.js",
+
+              
+              "src/assets/admin/js/material-dashboard.js",
+              "src/assets/admin/js/material-dashboard.min.js",
+              "src/assets/admin/js/core/popper.min.js",
+              "src/assets/admin/js/core/bootstrap.min.js",
+              "src/assets/admin/js/core/bootstrap.bundle.min.js",
+              "src/assets/admin/js/plugins/perfect-scrollbar.min.js",
+              "src/assets/admin/js/plugins/bootstrap-notify.js",
+              "src/assets/admin/js/plugins/smooth-scrollbar.min.js",
+              "src/assets/admin/js/plugins/chartjs.min.js"
             ]
           },
           "configurations": {
@@ -118,6 +136,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
+              
             ],
             "scripts": []
           }
